@@ -1,0 +1,74 @@
+QWidget
+{
+    color: rgb(60, 60, 60);
+}
+
+QDialog
+{
+    background-color: #FFFFFF;
+}
+
+QTabWidget
+{
+    border: 1px solid silver;
+    font-family: "Impact";
+    font-size: 15px;
+}
+
+QTextEdit, QLineEdit
+{
+    color: rgb(31, 31, 31);
+    background-color: transparent;
+    border: 1px solid silver;
+    padding: 2px;
+    font-family: "Courier";
+    font-size: 14px;
+}
+
+QLineEdit#FileNameLine
+{
+    font-size: 21px;
+}
+
+QTextEdit:hover, QTextEdit:focus, QLineEdit:hover, QLineEdit:focus
+{
+    border: 1px solid rgb(60, 60, 60);
+}
+
+QLabel
+{
+    color: rgb(60, 60, 60);
+    font-family: "Impact";
+    font-size: 15px;
+}
+
+QLabel#MsgLabel
+{
+    color: white;
+    padding: 1px;
+    font-family: "Impact";
+    font-size: 50px;
+}
+
+QPushButton
+{
+    color: #FFFFFF;
+    background-color: rgb(60, 60, 60);
+    border: 1px solid rgb(60, 60, 60);
+    padding: 4px;
+    font-family: "Impact";
+    font-size: 18px;
+}
+
+QPushButton:hover, QPushButton:pressed
+{
+    color: rgb(60, 60, 60);
+    background-color: transparent;
+}
+
+QCheckBox
+{
+    color: rgb(60, 60, 60);
+    font-family: "Impact";
+    font-size: 15px;
+}
